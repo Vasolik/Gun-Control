@@ -1,0 +1,10 @@
+﻿pmg_security = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_urban_centar_no_security
+		pm_urban_basic_security
+		pm_urban_basic_police
+		pm_urban_militarized_police
+		pm_urban_modern_police
+	}
+}

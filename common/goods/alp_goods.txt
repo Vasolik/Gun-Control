@@ -1,0 +1,10 @@
+﻿security_services = {
+	texture = "gfx/interface/icons/goods_icons/security_services.dds"
+	cost = 15
+	category = staple
+	tradeable = no
+	
+	prestige_factor = 20
+	
+	consumption_tax_cost = 200
+}

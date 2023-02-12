@@ -1,0 +1,106 @@
+﻿pm_urban_centar_no_security = {
+	texture = "gfx/interface/icons/production_method_icons/no_street_lighting.dds"
+}	
+
+pm_urban_basic_security = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_output_services_add = -10
+			building_output_security_services_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+			building_employment_soldiers_add = 3000
+			building_employment_officers_add = 500
+		}
+	}
+}
+
+pm_urban_basic_police = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_output_services_add = -10
+			building_output_security_services_add = 40
+			building_input_small_arms_add = 1.5
+			building_input_ammunition_add = 6
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+			building_employment_soldiers_add = 8000
+			building_employment_officers_add = 200
+			building_employment_clerks_add = 300
+			building_employment_bureaucrats_add = 50
+		}
+	}
+
+	unlocking_laws = {	
+		law_local_police
+		law_militarized_police
+		law_dedicated_police
+	}
+}
+
+pm_urban_militarized_police = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_output_services_add = -10
+			building_output_security_services_add = 80
+			building_input_small_arms_add = 3
+			building_input_ammunition_add = 12
+			building_input_artillery_add = 1
+			building_input_tank_add = 0.5
+			building_input_aeroplanes_add = 0.25
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+			building_employment_soldiers_add = 6000
+			building_employment_officers_add = 300
+		}
+	}
+
+	unlocking_laws = {	
+		law_militarized_police
+	}
+}
+
+pm_urban_modern_police = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_output_services_add = -10
+			building_output_security_services_add = 120
+			building_input_small_arms_add = 1.5
+			building_input_ammunition_add = 3
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+			building_employment_soldiers_add = 3000
+			building_employment_officers_add = 100
+			building_employment_academics_add = 400
+			building_employment_clerks_add = 1000
+			building_employment_bureaucrats_add = 150
+
+		}
+	}
+
+	unlocking_laws = {	
+		law_dedicated_police
+		law_guaranteed_liberties
+	}
+
+	unlocking_technologies = {		
+		psychoanalysis		
+    }
+
+}

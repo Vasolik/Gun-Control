@@ -1,0 +1,103 @@
+﻿popneed_protection = {
+	default = security_services
+	
+	entry = {
+		goods = security_services
+		
+		weight = 5
+		max_weight = 25.0 # Maxes out at 100% of supply share
+		min_weight = 5.0
+	}
+
+	entry = {
+		goods = small_arms
+		
+		weight = 1
+		max_weight = 0.8 # Maxes out at 16% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = ammunition
+		
+		weight = 1
+		max_weight = 3.2 # Maxes out at 20% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = artillery
+		
+		weight = 0.1
+		max_weight = 0.05 # Maxes out at 20% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = tanks
+		
+		weight = 0.05
+		max_weight = 0.025 # Maxes out at 20% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = aeroplanes
+		
+		weight = 0.05
+		max_weight = 0.025 # Maxes out at 20% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_advanced_protection = {
+	default = security_services
+	
+	entry = {
+		goods = security_services
+		
+		weight = 5
+		max_weight = 25.0 # Maxes out at 100% of supply share
+		min_weight = 15.0
+	}
+
+	entry = {
+		goods = small_arms
+		
+		weight = 1
+		max_weight = 0.6 # Maxes out at 16% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = ammunition
+		
+		weight = 1
+		max_weight = 2.4 # Maxes out at 20% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = artillery
+		
+		weight = 0.1
+		max_weight = 0.05 # Maxes out at 20% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = tanks
+		
+		weight = 0.05
+		max_weight = 0.025 # Maxes out at 20% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = aeroplanes
+		
+		weight = 0.05
+		max_weight = 0.025 # Maxes out at 20% of supply share
+		min_weight = 0.0
+	}
+}

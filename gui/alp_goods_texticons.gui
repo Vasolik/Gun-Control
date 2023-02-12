@@ -1,0 +1,9 @@
+texticon = {
+	icon = security_services
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/security_services.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
