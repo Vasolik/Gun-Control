@@ -1,6 +1,6 @@
 ﻿security_services = {
 	texture = "gfx/interface/icons/goods_icons/security_services.dds"
-	cost = 15
+	cost = 17
 	category = staple
 	tradeable = no
 	

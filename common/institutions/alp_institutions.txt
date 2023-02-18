@@ -1,0 +1,13 @@
+﻿
+institution_nra = {
+	icon = "gfx/interface/icons/institution_icons/police.dds"
+    background_texture = "gfx/interface/illustrations/institutions/police.dds"
+	modifier = {
+		state_turmoil_effects_mult = 0.15
+		building_throughput_small_arms_mult = 0.2
+		building_throughput_ammunition_mult = 0.3
+		building_throughput_artillery_mult = 0.1
+		building_throughput_tanks_mult = 0.05
+		building_throughput_aeroplanes_mult = 0.05
+	}
+}

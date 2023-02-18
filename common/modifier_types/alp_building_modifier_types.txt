@@ -2,3 +2,33 @@
 	good = yes
 	percent = no
 }
+
+building_output_security_services_mult = {
+	good = yes
+	percent = yes
+}
+
+building_throughput_small_arms_mult = {
+	good = yes
+	percent = yes
+}
+
+building_throughput_ammunition_mult = {
+	good = yes
+	percent = yes
+}
+
+building_throughput_artillery_mult = {
+	good = yes
+	percent = yes
+}
+
+building_throughput_tanks_mult = {
+	good = yes
+	percent = yes
+}
+
+building_throughput_aeroplanes_mult = {
+	good = yes
+	percent = yes
+}

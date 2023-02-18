@@ -7,7 +7,7 @@
 			building_output_fabric_add = 0.5 # 10
 			building_output_wood_add = 0.5 # 10
 			building_output_services_add = 0.5 # 15
-			building_output_security_services_add = 0.5
+			building_output_security_services_add = 1.5
 		}
 
 		level_scaled = {
